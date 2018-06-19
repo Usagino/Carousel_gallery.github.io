@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: "basictitlefont";
   src: url("material/basictitlefont.ttf");
@@ -15,8 +16,10 @@
 
 .image_carousel {
   width: 100vw;
-  height: 100vh;
+  height: 500px;
+  margin-top: 200px;
   overflow: hidden;
+  position: relative;
 }
 
 .image_carousel .carousel_1 {
@@ -37,24 +40,28 @@
   position: relative;
   top: 100vh;
   animation: up 10s linear 0s infinite;
+  /*ただしこれは横幅が1440pxの時に限り有効になる*/
 }
 
 .image_carousel .carousel_1 img:nth-child(2) {
   position: absolute;
   top: 100vh;
   animation: up 10s linear 3.54s infinite;
+  /*ただしこれは横幅が1440pxの時に限り有効になる*/
 }
 
 .image_carousel .carousel_1 img:nth-child(3) {
   position: absolute;
   top: 100vh;
   animation: up 10s linear 7.08s infinite;
+  /*ただしこれは横幅が1440pxの時に限り有効になる*/
 }
 
 .image_carousel .carousel_1 img:nth-child(4) {
   position: absolute;
   top: 100vh;
   animation: up 10s linear 10.62s infinite;
+  /*ただしこれは横幅が1440pxの時に限り有効になる*/
 }
 
 .image_carousel .carousel_2 {
@@ -75,24 +82,28 @@
   position: relative;
   top: 100vh;
   animation: up 10s linear 0s infinite;
+  /*ただしこれは横幅が1440pxの時に限り有効になる*/
 }
 
 .image_carousel .carousel_2 img:nth-child(2) {
   position: absolute;
   top: 100vh;
   animation: up 10s linear 3.54s infinite;
+  /*ただしこれは横幅が1440pxの時に限り有効になる*/
 }
 
 .image_carousel .carousel_2 img:nth-child(3) {
   position: absolute;
   top: 100vh;
   animation: up 10s linear 7.08s infinite;
+  /*ただしこれは横幅が1440pxの時に限り有効になる*/
 }
 
 .image_carousel .carousel_2 img:nth-child(4) {
   position: absolute;
   top: 100vh;
   animation: up 10s linear 10.62s infinite;
+  /*ただしこれは横幅が1440pxの時に限り有効になる*/
 }
 
 .image_carousel .carousel_3 {
@@ -113,24 +124,28 @@
   position: relative;
   top: 100vh;
   animation: up 10s linear 0s infinite;
+  /*ただしこれは横幅が1440pxの時に限り有効になる*/
 }
 
 .image_carousel .carousel_3 img:nth-child(2) {
   position: absolute;
   top: 100vh;
   animation: up 10s linear 3.54s infinite;
+  /*ただしこれは横幅が1440pxの時に限り有効になる*/
 }
 
 .image_carousel .carousel_3 img:nth-child(3) {
   position: absolute;
   top: 100vh;
   animation: up 10s linear 7.08s infinite;
+  /*ただしこれは横幅が1440pxの時に限り有効になる*/
 }
 
 .image_carousel .carousel_3 img:nth-child(4) {
   position: absolute;
   top: 100vh;
   animation: up 10s linear 10.62s infinite;
+  /*ただしこれは横幅が1440pxの時に限り有効になる*/
 }
 
 .image_carousel .carousel_4 {
@@ -151,24 +166,28 @@
   position: relative;
   top: 100vh;
   animation: up 10s linear 0s infinite;
+  /*ただしこれは横幅が1440pxの時に限り有効になる*/
 }
 
 .image_carousel .carousel_4 img:nth-child(2) {
   position: absolute;
   top: 100vh;
   animation: up 10s linear 3.54s infinite;
+  /*ただしこれは横幅が1440pxの時に限り有効になる*/
 }
 
 .image_carousel .carousel_4 img:nth-child(3) {
   position: absolute;
   top: 100vh;
   animation: up 10s linear 7.08s infinite;
+  /*ただしこれは横幅が1440pxの時に限り有効になる*/
 }
 
 .image_carousel .carousel_4 img:nth-child(4) {
   position: absolute;
   top: 100vh;
   animation: up 10s linear 10.62s infinite;
+  /*ただしこれは横幅が1440pxの時に限り有効になる*/
 }
 
 @keyframes up {

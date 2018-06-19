@@ -3,12 +3,15 @@ $column:4;
 $row:4;
 .image_carousel{
   width: 100vw;
-  height: 100vh;
+  height: 500px;
+  margin-top: 200px;
   overflow: hidden;
+  position: relative;
   @for $i from 1 through $column{
     .carousel_#{$i}{
       width: calc(100vw / #{$column} );
       float: left;
+
       img{
         display: block;
         width: calc(100vw / #{$column});
@@ -25,16 +28,18 @@ $row:4;
             }@else{
               position: absolute;
             }
+
             top:100vh;
             $deray:3.54;
-            animation: up 10s linear #{$top * $deray - $deray}s infinite;
-          }
+
+            animation: up 10s linear #{$top * $deray - $deray}s infinite;/*ただしこれは横幅が1440pxの時に限り有効になる*/
+
+
         }
       }
     }
   }
-
-
+}
 }
 
 @keyframes up{
