@@ -13,17 +13,15 @@ html(lang="en")
       div.image_carousel
         -var carousel_count = 0;
         -var count = 0;
-        while carousel_count < 5
+        while carousel_count < 4
           -  carousel_count = 1 + carousel_count;
           div(class="carousel_"+carousel_count)
-            div(class="carousel_"+carousel_count+"_wrap")
-              - var n = 0;
-              
-              
-              while n < 3
-                - var n = 1 + n;
-                - var count = 1 + count;
-                img(src="material/works_"+count+".png")
+            
+            - var n = 0;
+            while n < 4
+              - var n = 1 + n;
+              - var count = 1 + count;
+              img(src="material/works_"+count+".png")
             
           
       script(type="text/javascript" src="script/jquery-3.3.1.min.js")

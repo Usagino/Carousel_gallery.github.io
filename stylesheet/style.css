@@ -13,97 +13,169 @@
   src: url("material/Nagomi.ttf");
 }
 
+.image_carousel {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
 .image_carousel .carousel_1 {
-  width: calc(100vw / 5);
+  width: calc(100vw / 4);
   float: left;
 }
 
-.image_carousel .carousel_1_wrap {
-  position: relative;
-  width: calc(100vw / 5);
-}
-
-.image_carousel .carousel_1_wrap img {
+.image_carousel .carousel_1 img {
   display: block;
-  width: calc(100vw / 5);
-  height: calc(100vw / 5 * 1.227);
+  width: calc(100vw / 4);
+  height: calc(100vw / 4 * 1.227);
   -o-object-fit: cover;
   object-fit: cover;
-  margin: 10px 0;
+  padding: 5px 0;
+}
+
+.image_carousel .carousel_1 img:nth-child(1) {
+  position: relative;
+  top: 100vh;
+  animation: up 10s linear 0s infinite;
+}
+
+.image_carousel .carousel_1 img:nth-child(2) {
+  position: absolute;
+  top: 100vh;
+  animation: up 10s linear 3.54s infinite;
+}
+
+.image_carousel .carousel_1 img:nth-child(3) {
+  position: absolute;
+  top: 100vh;
+  animation: up 10s linear 7.08s infinite;
+}
+
+.image_carousel .carousel_1 img:nth-child(4) {
+  position: absolute;
+  top: 100vh;
+  animation: up 10s linear 10.62s infinite;
 }
 
 .image_carousel .carousel_2 {
-  width: calc(100vw / 5);
+  width: calc(100vw / 4);
   float: left;
 }
 
-.image_carousel .carousel_2_wrap {
-  position: relative;
-  width: calc(100vw / 5);
-}
-
-.image_carousel .carousel_2_wrap img {
+.image_carousel .carousel_2 img {
   display: block;
-  width: calc(100vw / 5);
-  height: calc(100vw / 5 * 1.227);
+  width: calc(100vw / 4);
+  height: calc(100vw / 4 * 1.227);
   -o-object-fit: cover;
   object-fit: cover;
-  margin: 10px 0;
+  padding: 5px 0;
+}
+
+.image_carousel .carousel_2 img:nth-child(1) {
+  position: relative;
+  top: 100vh;
+  animation: up 10s linear 0s infinite;
+}
+
+.image_carousel .carousel_2 img:nth-child(2) {
+  position: absolute;
+  top: 100vh;
+  animation: up 10s linear 3.54s infinite;
+}
+
+.image_carousel .carousel_2 img:nth-child(3) {
+  position: absolute;
+  top: 100vh;
+  animation: up 10s linear 7.08s infinite;
+}
+
+.image_carousel .carousel_2 img:nth-child(4) {
+  position: absolute;
+  top: 100vh;
+  animation: up 10s linear 10.62s infinite;
 }
 
 .image_carousel .carousel_3 {
-  width: calc(100vw / 5);
+  width: calc(100vw / 4);
   float: left;
 }
 
-.image_carousel .carousel_3_wrap {
-  position: relative;
-  width: calc(100vw / 5);
-}
-
-.image_carousel .carousel_3_wrap img {
+.image_carousel .carousel_3 img {
   display: block;
-  width: calc(100vw / 5);
-  height: calc(100vw / 5 * 1.227);
+  width: calc(100vw / 4);
+  height: calc(100vw / 4 * 1.227);
   -o-object-fit: cover;
   object-fit: cover;
-  margin: 10px 0;
+  padding: 5px 0;
+}
+
+.image_carousel .carousel_3 img:nth-child(1) {
+  position: relative;
+  top: 100vh;
+  animation: up 10s linear 0s infinite;
+}
+
+.image_carousel .carousel_3 img:nth-child(2) {
+  position: absolute;
+  top: 100vh;
+  animation: up 10s linear 3.54s infinite;
+}
+
+.image_carousel .carousel_3 img:nth-child(3) {
+  position: absolute;
+  top: 100vh;
+  animation: up 10s linear 7.08s infinite;
+}
+
+.image_carousel .carousel_3 img:nth-child(4) {
+  position: absolute;
+  top: 100vh;
+  animation: up 10s linear 10.62s infinite;
 }
 
 .image_carousel .carousel_4 {
-  width: calc(100vw / 5);
+  width: calc(100vw / 4);
   float: left;
 }
 
-.image_carousel .carousel_4_wrap {
-  position: relative;
-  width: calc(100vw / 5);
-}
-
-.image_carousel .carousel_4_wrap img {
+.image_carousel .carousel_4 img {
   display: block;
-  width: calc(100vw / 5);
-  height: calc(100vw / 5 * 1.227);
+  width: calc(100vw / 4);
+  height: calc(100vw / 4 * 1.227);
   -o-object-fit: cover;
   object-fit: cover;
-  margin: 10px 0;
+  padding: 5px 0;
 }
 
-.image_carousel .carousel_5 {
-  width: calc(100vw / 5);
-  float: left;
-}
-
-.image_carousel .carousel_5_wrap {
+.image_carousel .carousel_4 img:nth-child(1) {
   position: relative;
-  width: calc(100vw / 5);
+  top: 100vh;
+  animation: up 10s linear 0s infinite;
 }
 
-.image_carousel .carousel_5_wrap img {
-  display: block;
-  width: calc(100vw / 5);
-  height: calc(100vw / 5 * 1.227);
-  -o-object-fit: cover;
-  object-fit: cover;
-  margin: 10px 0;
+.image_carousel .carousel_4 img:nth-child(2) {
+  position: absolute;
+  top: 100vh;
+  animation: up 10s linear 3.54s infinite;
+}
+
+.image_carousel .carousel_4 img:nth-child(3) {
+  position: absolute;
+  top: 100vh;
+  animation: up 10s linear 7.08s infinite;
+}
+
+.image_carousel .carousel_4 img:nth-child(4) {
+  position: absolute;
+  top: 100vh;
+  animation: up 10s linear 10.62s infinite;
+}
+
+@keyframes up {
+  0% {
+    top: 100vh;
+  }
+  100% {
+    top: calc(100vw / 4 * 1.227 * -1);
+  }
 }
