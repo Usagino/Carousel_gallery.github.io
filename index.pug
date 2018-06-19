@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+html(lang="en")
+    head
+      
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        meta(http-equiv="X-UA-Compatible", content="ie=edge")
+        link(rel="stylesheet" href="stylesheet/reset.css")
+        link(rel="stylesheet" href="stylesheet/style.css")
+        link(href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet")
+        title Document
+    body
+      div.image_carousel
+        -var carousel_count = 0;
+        -var count = 0;
+        while carousel_count < 5
+          -  carousel_count = 1 + carousel_count;
+          div(class="carousel_"+carousel_count)
+            div(class="carousel_"+carousel_count+"_wrap")
+              - var n = 0;
+              
+              
+              while n < 3
+                - var n = 1 + n;
+                - var count = 1 + count;
+                img(src="material/works_"+count+".png")
+            
+          
+      script(type="text/javascript" src="script/jquery-3.3.1.min.js")
+      script(type="text/javascript" src="script/script.js")
