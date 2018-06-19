@@ -34,6 +34,9 @@ $row:4;
     }
   }
 
+
+}
+
 @keyframes up{
   0%{
     top: 100vh;
@@ -41,5 +44,4 @@ $row:4;
   100%{
     top: calc(100vw / #{$column} * 1.227 * -1);
   }
-}
 }
